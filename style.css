@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	font-size: 20px;
+}
+#wrapper{
+	width: 100%;
+}
+#header{
+	height: 80px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+#row{
+	width: 85%;
+	height: 100%;
+	margin: auto;
+}
+#header #left{
+	width: 60%;
+	height: 100%;
+	float: left;
+	
+}
+#header #right{
+	width: 40%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+#header #right span a{
+	text-decoration: none;
+	color: black;
+}
+#header li{
+	padding-left: 25px;
+}
+#right img{
+	width: 40px;
+	height: 40px;
+}
+#header ul li{
+	display: inline-block;
+	line-height: 50px;
+}
+}
+#header {
+	padding-top: 5px;
+}
+#Slide{
+	overflow: hidden;
+	width: 960px;
+	height:500px;
+	margin: 0 auto;
+}
+#Con{
+	width: 7500px;
+	-webkit-animation: Slide 10s ease infinite;
+}
+.a1{
+	float: left;
+	width: 960px;
+	height:500px;
+}
+@-webkit-keyframes Slide {
+	0%{margin-left: 0px;}
+	25%{margin-left: -960px;}
+	50%{margin-left: -960px;}
+	75%{margin-left: -1920px;}
+	
+}
+#menu ul{
+	background-color: #F2F2F2;
+	list-style-type: none;
+	text-align: center;
+
+}
+#menu li{
+	display: inline-block;
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+#menu li{
+	position: relative;
+}
+#menu a:hover{
+	background-color: #F2F2F2 ;
+	color: black;
+}
+#sub-menu{
+	display: none;
+	position: absolute;
+}
+#menu li:hover #sub-menu{
+	display: block;
+}
